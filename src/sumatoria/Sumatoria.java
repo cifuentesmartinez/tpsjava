@@ -1,9 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package sumatoria;
+
+import java.util.Scanner;
 
 /**
  *
@@ -17,8 +15,20 @@ public class Sumatoria {
     public static void main(String[] args) {
         // TODO code application logic here
         //este es mi comit
+        double Num1,Num2,Suma,Resta,Multi,Divi;
+        String  Nombre;
         
-        System.out.print("Hola");
+        Scanner Captura = new Scanner(System.in);
+        
+        System.out.print("Digite su nombre");
+        Nombre = Captura.nextLine();
+        System.out.print("Digite el numero");
+        Num1 = Captura.nextDouble();
+        System.out.print("Digite el segundo numero");
+        Num2 = Captura.nextDouble();
+        Suma = Num1+Num2;
+        System.out.print("El resultado de la suma es: "+Suma);
+        
                 
     }
     
