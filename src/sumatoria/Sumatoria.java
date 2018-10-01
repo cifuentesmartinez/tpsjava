@@ -29,6 +29,7 @@ public class Sumatoria {
         Suma = Num1+Num2;
         System.out.print("El resultado de la suma es: "+Suma);
         System.out.println("observacion final");
+        system.out.println("vamos nuevamente");
         
                 
     }
