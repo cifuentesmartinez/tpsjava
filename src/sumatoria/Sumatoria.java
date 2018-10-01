@@ -28,6 +28,7 @@ public class Sumatoria {
         Num2 = Captura.nextDouble();
         Suma = Num1+Num2;
         System.out.print("El resultado de la suma es: "+Suma);
+        System.out.println("observacion final");
         
                 
     }
