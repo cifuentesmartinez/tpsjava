@@ -14,19 +14,21 @@ import javax.swing.JOptionPane;
 public class Do {
     public static void main(String[] args) {
     
-    int canti,Num1,suma,cont=0;
+    int canti,Sueldo,suma,Prome,cont=0;
     
     suma = 0;
     
-     canti= Integer.parseInt(JOptionPane.showInputDialog(null, "DIGITE LA CANTIDAD DE NUMEROS "));
+     canti= Integer.parseInt(JOptionPane.showInputDialog(null, "DIGITE LA CANTIDAD Empleados "));
      
       do {
-         Num1= Integer.parseInt(JOptionPane.showInputDialog(null, "DIGITE LA EDAD DE ALUMNOS "));
-         suma=suma+Num1;
+         Sueldo= Integer.parseInt(JOptionPane.showInputDialog(null, "DIGITE EL SUELDO "));
+         suma=suma+Sueldo;
+         Prome=suma/canti;
          cont++;
          
     }while(cont<canti);
-      JOptionPane.showMessageDialog(null,"la sumatoria de edades son: "+ suma);
+      JOptionPane.showMessageDialog(null,"la sumatoria de sueldo es : "+ suma);
+      JOptionPane.showMessageDialog(null,"la sumatoria de sueldo es : "+ Prome);
 
     
     }

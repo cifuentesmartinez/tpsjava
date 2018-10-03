@@ -14,15 +14,17 @@ import javax.swing.JOptionPane;
 public class While {
     public static void main(String[] args) {
     
-    int canti,Num1,suma,cont;
+    int canti,Edad,suma,cont,promet;
     cont = 0;
     suma = 0;
     
-     canti= Integer.parseInt(JOptionPane.showInputDialog(null, "DIGITE LA CANTIDAD DE NUMEROS "));
+     canti= Integer.parseInt(JOptionPane.showInputDialog(null, "DIGITE LA CANTIDAD DE Edades a ingresar "));
      
       while (cont<canti) {
-         Num1= Integer.parseInt(JOptionPane.showInputDialog(null, "DIGITE LA EDAD DE ALUMNOS "));
-         suma=suma+Num1;
+         Edad= Integer.parseInt(JOptionPane.showInputDialog(null, "DIGITE LA EDAD DE ALUMNOS "));
+         suma=suma+Edad; 
+         promet=suma/canti;
+         
          cont++;
          
     }

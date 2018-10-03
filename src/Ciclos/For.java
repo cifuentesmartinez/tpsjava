@@ -38,12 +38,12 @@ public class For {
          //cont++;
          
     }
-      JOptionPane.showMessageDialog(null,"la canti de positivos son: "+ Conpos);
-      JOptionPane.showMessageDialog(null,"la canti de negativos son: "+ Contne);
-      JOptionPane.showMessageDialog(null,"la sumatoria de positovs son: "+ Sumapo);
-      JOptionPane.showMessageDialog(null,"la sumatoria de negativos son: "+ Sumane);
-      JOptionPane.showMessageDialog(null,"la promedio de positivos son: "+ Promepo);
-      JOptionPane.showMessageDialog(null,"la promedio de positivos son: "+ Promene);
+      JOptionPane.showMessageDialog(null,"la canti de positivos son: "+ Conpos+"/n"+" hola mundo"+Contne);
+   //   JOptionPane.showMessageDialog(null,"la canti de negativos son: "+ Contne);
+     // JOptionPane.showMessageDialog(null,"la sumatoria de positovs son: "+ Sumapo);
+     // JOptionPane.showMessageDialog(null,"la sumatoria de negativos son: "+ Sumane);
+      //JOptionPane.showMessageDialog(null,"la promedio de positivos son: "+ Promepo);
+      //JOptionPane.showMessageDialog(null,"la promedio de positivos son: "+ Promene);
     
     }
     
