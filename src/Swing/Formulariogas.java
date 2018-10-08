@@ -203,9 +203,9 @@ public class Formulariogas extends javax.swing.JFrame {
     }//GEN-LAST:event_BrestaActionPerformed
 
     private void BlimpiarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BlimpiarActionPerformed
-            Tnum1.getText();
-            Tnum2.getText();
-            TResultado.getText();
+            Tnum1.setText("");
+            Tnum2.setText("");
+            TResultado.setText("");
             
     }//GEN-LAST:event_BlimpiarActionPerformed
 
